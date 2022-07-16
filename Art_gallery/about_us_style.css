@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+	font-family: 'Poppins', sans-serif;
+}
+
+h1{
+	background-color: rgb(182, 112, 112);
+}
+
+h2{
+	font-size: 2em;
+  }
+
+#menu-bar, #menu-bar-main, #info td{
+	border-style: solid;
+	border-width: thick;
+	background-color: grey;
+	border-radius: 0px;
+	margin: 0px;
+}
+
+#moving-display-image, #moving-display-name, #moving-display-description{
+	text-align: center;
+}
+
+#moving-display-image{
+	border-style: solid;
+	border-radius: 10px;
+	margin: 5px;
+
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 75%;
+}
+
+#moving-display-button-left:hover, #moving-display-button-right:hover{
+	 cursor: pointer;
+}
+
+.moving-display, .genre{
+	border-style: solid;
+	border-width: thick;
+	border-radius: 5px;
+	margin: 0px;
+}
+
+.genre-title{
+	border-style: solid;
+	border-width: thick;
+	border-radius: 5px;
+	margin: -4px;
+}
+
+.art-image-icon{
+	border-style: solid;
+	border-width: medium;
+	border-radius: 10px;
+	margin: 0px;
+}
+
+#page{
+  background-image: url("https://designshack.net/wp-content/uploads/background-textures.png");
+}
+
+.content{
+	background-color: lightblue;
+}
+
+
+#boxTrial{
+	background-color: #222227;
+	width: 100%;
+	height: fit-content;
+  }
+  
+  nav{
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+  }
+  
+  nav a{
+	text-decoration: none;
+	color: white;
+  }
+  
+  nav a:hover{
+	cursor: pointer;
+	text-decoration: underline;
+  }

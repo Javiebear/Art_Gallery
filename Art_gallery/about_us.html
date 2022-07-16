@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="about_us_style.css">
+	<title>Art Gallery</title>
+</head>
+<body id="page">
+
+	<header>
+		<nav>
+			<table id="boxTrial">
+				<tr>
+            		<td><img src="logo.png" width="176px" height="66px"></img></td>
+					<td><a href="main.php"><h2>Home</h2></a></td>
+					<td><a href="main.php#genres"><h2>Artworks</h2></a></td>
+					<td><a href="artGallery.php"><h2>Booking</h2></a></td>
+					<td><a href="about_us.html"><h2>About Us</h2></a></td>
+				</tr>
+			</table>
+		</nav>
+	</header>
+	<div id="info">
+		<h2 style="text-align: center;">Who we are</h2>
+	  <p style="text-align: center;">We are a society who loves to indulge in visual media.</p>
+		<h3 style="text-align: center;">Location</h3>
+		<p style="text-align: center;">3 Blocks to the left of your missing sock.</p>
+		<h3 style="text-align: center;">Contact Info</h3>
+	  <p style="text-align: center;">(+40E4) 339-933-5755</p>
+		<p style="text-align: center;">frigusartgallery@susmail.ru</p>
+		<br>
+		<br>
+		<h2 style="text-align: center;">Q&A</h2>
+
+		<table>
+			<tr>
+				<td>
+					<h2>Can I get a refund for a piece I bought recently?</h2>
+					<div class="content">
+					  <h3>Only if you come in on tuesday from 3:30pm-4pm on the first week of the month.</h3>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<h2>When do you usually ship</h2>
+					<div class="content">
+					  <h3>When we feel like it.</h3>
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<h2>Is there any chance to meet an artist?</h2>
+					<div class="content">
+					  <h3>Nope.</h3>
+					</div>
+				</td>
+			</tr>
+		</table>
+
+		</div>
+
+		<div id="termsandconditions">
+			<h2 style="text-align: center;">Terms and Conditions</h2>
+			<h3>BUYERS AND VISITORS OF THE PLATFORM FRIGUS COMMIT TO:</h3>
+			<p id="boring">Proactively manage their profile by ensuring that all contact and billing information are accurate and up-to-date.
+Ensure optimal realistic representativeness of an artwork on the platform before buying. All purchases are final and non-refundable except if the purchased artwork is no longer available at the time of the transaction, case in which the total of the transaction will be refunded to the buyer.
+Take knowledge of the contents of the email, verbal or written notifications of changes to the terms and conditions informed by .
+Pick up the artwork within 7 days after a purchase is processed. If this period is exceeded, the work will be transported to one of Frigus’s service points.
+Respect the means of delivery or deposit requested during the purchase:
+By pickup in establishment: Show the confirmation code in person, wait for the code verification and sign the confirmation of receipt of before leaving with the artwork.The buyer is responsible of checking the availability of the establishment for the pick-up of the art work beforehand, by telephone or in person.
+By mail: No action required
+By pickup at one of the Frigus pickup points : Appear in person with the confirmation code or other means established by Frigus.
+Be responsible for a purchased work from the moment it is delivered to them or from the moment it is picked up in an establishment.
+The artworks displayed on the platform or in an establishment are not to be reproduced in any format without the written consent of the artists they belong to except for the purpose of online, offline and through all other form of media promotion, where only the photographs of the works in its context background clearly visible or photo of the work uploaded on Frigus accompanied by the name of the artist, the link to the Frigus exhibition, the link to the artwork’s Frigus page or the link to the artist’s Frigus profile are allowed.</p>
+			<script>
+				setInterval(function(){changeText()}, 1000);
+
+				var x = document.getElementById("boring");
+				var writing = x.innerHTML;
+				var alphabet = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', '#', '$', '%', '*'];
+
+				function changeText()
+				{
+					var newWriting = "";
+
+					for(var i = 0; i < writing.length; i++)
+					{
+						//i > 1000 && i % 2
+						//Math.floor(Math.random() * (i * 0.05)) == 0
+						if(i > 750 && i % 2)
+						{
+							newWriting += alphabet[Math.floor(Math.random() * alphabet.length)];
+						}
+						else
+						{
+							newWriting += writing.charAt(i);
+						}
+					}
+
+					x.innerHTML = newWriting;
+				}
+			</script>
+		</div>
+	</div>
+</body>
+</html>

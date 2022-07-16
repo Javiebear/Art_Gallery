@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+	font-family: 'Poppins', sans-serif;
+}
+
+h1{
+	background-color: #222227;
+}
+
+a h2{
+	font-size: 2em;
+	color: white;
+}
+
+#website-name{
+	text-align: center;
+	margin: 0px;
+	color:white;
+	background-color: black;
+}
+
+#menu-bar, #menu-bar-main{
+	border-style: solid 1pt;
+	border-width: thick;
+	background-color: grey;
+	border-radius: 0px;
+	margin: 0px;
+}
+
+#moving-display-image, #moving-display-name, #moving-display-description{
+	text-align: center;
+}
+
+#moving-display-image{
+	border-style: solid;
+	border-radius: 10px;
+	margin: 5px;
+
+	display:flex;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: fill;
+	height:fill;
+}
+
+#moving-display-button-left:hover, #moving-display-button-right:hover{
+	 cursor: pointer;
+}
+
+.moving-display, .genre{
+	border-style: solid;
+	border-width: thick;
+	border-radius: 1px;
+	margin: 0px;
+	background-color: rgb(110, 110, 110);
+}
+
+.genre-title{
+	border-style: solid;
+	border-width: thick;
+	border-radius: 5px;
+	margin: -4px;
+}
+
+.art-image-icon{
+	border-style: solid;
+	border-width: medium;
+	border-radius: 10px;
+	margin: 0px;
+}
+
+#boxTrial{
+	background-color: #222227;
+	width: 100%;
+	height: fit-content;
+  }
+  
+  nav{
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+  }
+  
+  nav a{
+	text-decoration: none;
+	color: white;
+  }
+  
+  nav a:hover{
+	cursor: pointer;
+	text-decoration: underline;
+  }
+
+  .container h1{
+	color: white;
+  }

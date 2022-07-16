@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel ="stylesheet" type = "text/css" href="genre-style.css">
+        <link rel="stylesheet" type="text/css" href="main_style.css">
+        <title>Eerie Art</title>
+        <style></style>
+    </head>
+    <body style="background-color: rgb(48, 85, 57);">
+        <div class = "navbar">
+            <ul>
+                <li><img src="logo.png" width="160px" height="60px"></img></li>
+                <li><a href="main.php#genres">Back</a></li>
+                <li><a href="fantasy.html">Fantasy</a></li>
+                <li><a href="abstract.html">Abstract</a></li>
+                <li><a href="eerie.html">Eerie</a></li>
+                <li><a href="pop.html">Pop Art</a></li>
+                <li><a href="landscape.html">Landscape</a></li>
+                <li><a href="framed-prints.html">Framed Prints</a></li>
+              </ul>
+        </div>
+        <div class = "container">
+            <div class = "heading">
+                <h3>Eerie <span>Art</span></h3>
+            </div>
+            <div class = "box">
+                <div class = "column">
+                    <img src ="images\Eerie\sensus-videndi by -angelina-goncharova.jpg" class= "img-thumbnail" onclick="openLightbox();toSlide(1)" class="hover-shadow preview" />
+                    <img src="images\Eerie\Fixed Gaze by Fulvio Pellegrini.jpg" class= "img-thumbnail"  onclick="openLightbox();toSlide(2)" class="hover-shadow preview"/>
+                    <img src="images\Eerie\dolls-paul-boomsma.jpg" class= "img-thumbnail"  onclick="openLightbox();toSlide(3)" class="hover-shadow preview" />
+                </div>
+                <div class = "column">
+                    <img src="images\Eerie\Forest Witch by Cambion Art.jpg" class= "img-thumbnail"  onclick="openLightbox();toSlide(4)" class="hover-shadow preview"/>
+                    <img src="images\Eerie\Feast by Cambion Art.jpg" class= "img-thumbnail"  onclick="openLightbox();toSlide(5)" class="hover-shadow preview" /> 
+                </div>
+                <div class = "column">
+                    <img src="images\Eerie\i-am-your-queen by -marco-de-waal.jpg" class= "img-thumbnail"  onclick="openLightbox();toSlide(6)" class="hover-shadow preview" />
+                    <img src="images\Eerie\gangstas-paradise-evelina-kremsdorf.jpg" class= "img-thumbnail"  onclick="openLightbox();toSlide(7)" class="hover-shadow preview" />
+                    <img src="images\Eerie\unseen-abi-danial.jpg" class= "img-thumbnail"  onclick="openLightbox();toSlide(8)" class="hover-shadow preview"/>
+                    
+                </div>
+            </div>
+        </div>
+            <div id="Lightbox" class="modal">
+                <span class="close pointer" onclick="closeLightbox()">&times;</span>
+                <div class="modal-content">
+                    <div class="slide">
+                        <img src="images\Eerie\sensus-videndi by -angelina-goncharova.jpg" class="image-slide" />
+                        <div class = "info">
+                            <h2 style ="color: rgb(48, 85, 57);">Sensus Videndi</h2>
+                            <p style="font-style: italic;">by Angelina Goncharova</p>
+                        </div>
+                        <div class = "price">
+                            <p style="font-weight: bold;">Price:<p>
+                             <h2 style ="font-style: italic; color: rgb(48, 85, 57);">$300</h2>
+                        </div>
+                        
+                    </div>  
+                    <div class="slide">
+                        <img src="images\Eerie\Fixed Gaze by Fulvio Pellegrini.jpg" class="image-slide" />
+                        <div class = "info">
+                            <h2 style ="color:rgb(48, 85, 57);">Fixed Gaze</h2>
+                            <p style="font-style: italic;">by Fulvio Pellegrini</p>
+                        </div>
+                        <div class = "price">
+                            <p style="font-weight: bold;">Price:<p>
+                             <h2 style ="font-style: italic; color:rgb(48, 85, 57);">$400</h2>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="images\Eerie\dolls-paul-boomsma.jpg" class="image-slide" />
+                        <div class = "info">
+                            <h2 style ="color: rgb(48, 85, 57);">Dolls</h2>
+                            <p style="font-style: italic;">by Paul Boomsma</p>
+                        </div>
+                        <div class = "price">
+                            <p style="font-weight: bold;">Price:<p>
+                             <h2 style ="font-style: italic; color: rgb(48, 85, 57);">$250</h2>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="images\Eerie\Forest Witch by Cambion Art.jpg" class="image-slide" />
+                        <div class = "info">
+                            <h2 style ="color: rgb(48, 85, 57);">Forest Witch</h2>
+                            <p style="font-style: italic;">by Cambion Art</p>
+                        </div>
+                        <div class = "price">
+                            <p style="font-weight: bold;">Price:<p>
+                             <h2 style ="font-style: italic; color: rgb(48, 85, 57);">$350</h2>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="images\Eerie\Feast by Cambion Art.jpg" class="image-slide" />
+                        <div class = "info">
+                            <h2 style ="color: rgb(48, 85, 57);">Feast</h2>
+                            <p style="font-style: italic;">by Cambion Art</p>
+                        </div>
+                        <div class = "price">
+                            <p style="font-weight: bold;">Price:<p>
+                             <h2 style ="font-style: italic; color: rgb(48, 85, 57);">$300</h2>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="images\Eerie\i-am-your-queen by -marco-de-waal.jpg" class="image-slide" />
+                        <div class = "info">
+                            <h2 style ="color: rgb(48, 85, 57);">I Am Your Queen</h2>
+                            <p style="font-style: italic;">by Marco De Waal</p>
+                        </div>
+                        <div class = "price">
+                            <p style="font-weight: bold;">Price:<p>
+                             <h2 style ="font-style: italic; color: rgb(48, 85, 57);">$450</h2>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="images\Eerie\gangstas-paradise-evelina-kremsdorf.jpg" class="image-slide" />
+                        <div class = "info">
+                            <h2 style ="color: rgb(48, 85, 57);">Gangsta's Paradise</h2>
+                            <p style="font-style: italic;">by Evelina Kremsdorf</p>
+                        </div>
+                        <div class = "price">
+                            <p style="font-weight: bold;">Price:<p>
+                             <h2 style ="font-style: italic; color: rgb(48, 85, 57);">$300</h2>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="images\Eerie\unseen-abi-danial.jpg" class="image-slide" />
+                        <div class = "info">
+                            <h2 style ="color: rgb(48, 85, 57);">Unseen</h2>
+                            <p style="font-style: italic;">by Abi Danial</p>
+                        </div>
+                        <div class = "price">
+                            <p style="font-weight: bold;">Price:<p>
+                             <h2 style ="font-style: italic; color: rgb(48, 85, 57);">$250</h2>
+                        </div>
+                    </div>
+                    <a class="previous" onclick="changeSlide(-1)">&#10094;</a>
+                    <a class="next" onclick="changeSlide(1)">&#10095;</a>
+                </div>
+        </div>
+        <script>
+            let slideIndex = 1;
+            showSlide(slideIndex);
+
+            function openLightbox() {
+                document.getElementById('Lightbox').style.display = 'block'
+            };
+
+            function closeLightbox() {
+                document.getElementById('Lightbox').style.display = 'none';
+            };
+
+            function changeSlide(n) {
+                showSlide(slideIndex += n);
+            };
+
+            function toSlide(n) {
+                showSlide(slideIndex = n);
+            };
+            function showSlide(n) {
+            const slides = document.getElementsByClassName('slide');
+            let modalPreviews = document.getElementsByClassName('modal-preview');
+
+            if (n > slides.length) {
+                slideIndex = 1;
+            };
+
+            if (n < 1) {
+                slideIndex = slides.length;
+            };
+
+            for (let i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            };
+
+            for (let i = 0; i < modalPreviews.length; i++) {
+                modalPreviews[i].className = modalPreviews[i].className.replace(' active', '');
+            };
+
+            slides[slideIndex - 1].style.display = 'block';
+            modalPreviews[slideIndex - 1].className += ' active';
+        };
+
+        </script>
+    </body>
+</html>
